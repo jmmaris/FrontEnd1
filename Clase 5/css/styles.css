@@ -1,0 +1,76 @@
+/* Empiezo dandole formato al header, incluyendo el titulo */
+header {
+    background-color:#dddddd;
+    text-align: center;
+}
+header h1 {
+    background-color:  #BFBFBF;
+    color: rgb(0, 0, 128);
+    font-family: Calibri , Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 10px;
+    word-spacing: 40px;
+}
+
+/* Siguiendo por el Main, le doy estilo a los h2 y a los textos dentro de cada section. Todo lo que este dentro de main estara entre este comentario y el siguiente, en orden alfabetico */
+
+dl > dt , dd {
+    position: relative;
+    left: 20px;
+}
+
+h2 {
+    background-color:#BFBFBF;
+    color: brown;
+    font-family: Calibri , Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-indent: 5px;
+    width: 50%;
+    word-spacing: 6px;
+}
+
+main {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.negrita {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Calibri , Arial, Helvetica, sans-serif;
+}
+
+section {
+    position: relative;
+    left: 25%;
+    margin: 25px;
+    font-family: sans-serif;
+}
+
+ul {
+    font-size: 15px;
+}
+
+/* Le doy estilo ahora al footer */
+
+footer {
+    box-sizing: border-box;
+    background-color:#1F497D;
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    padding: 0px;
+    height: 28px;
+    width: 100%;
+    /* Posiciono al Elemento */
+    top: 35px;
+}
+
+footer img {
+    height:17px;
+}

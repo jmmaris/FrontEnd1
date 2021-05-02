@@ -1,0 +1,136 @@
+/*GENERALES*/
+@font-face {
+    font-family: Roboto;
+    src: url(../../../../../../Recursos_IT/TipografÃ­as/Roboto/Roboto-Regular.ttf );
+}
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.cora { 
+    left: 25px; 
+    position: absolute;
+    top: 10px;
+}
+p {
+    font-size: 20px;
+}
+.relativo {
+    position: relative;
+}
+.button {
+    background-color: #00669F;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 60px;
+    padding: 15px 45px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*HEADER*/
+.descuento {
+    background-color: #1CD1B0;
+    padding-left: 50px ;
+}
+.descuento p {
+    font-size: 30px;
+    font-weight: 500;
+}
+.contenido-title {
+    box-shadow: 0 4px 5px 2px grey;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+h1 {
+    background-color: #00669F; 
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    padding: 10px 50px;    
+}
+
+/*MAIN*/
+.card {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 3;
+}
+img {
+    border-radius: 100%;
+    height: 200px;
+    left: 25%;
+    position: absolute;
+    top: -25%;
+}
+h2{
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+.contenido p {
+    padding: 15px 20px 0 ;
+    text-align: left;
+}
+.fondo {
+    background-size: cover;
+    box-shadow: 0 1px 5px grey;
+    display: inline-block;
+    grid-column: 2 / 3;
+    height: 270px;
+    margin-top: 50px;
+    text-align: center;
+    width: 400px;
+}
+.bg-batman {
+    background-image: url(/card_super_heroes/img/bg-batman.jpg);
+    border-radius: 40px 40px 0 0;
+}
+.bg-wwoman {
+    background-image: url(/card_super_heroes/img/bg-wonderw.jpg);
+    border-radius: 40px 40px 0 0;
+}
+.bg-superman {
+    background-image: url(/card_super_heroes/img/bg-superman.jpg);
+    border-radius: 40px 40px 0 0;
+}
+.contenido {
+    background-color: #F3F3F3;
+    box-shadow: 0 1px 5px grey;
+    grid-column: 2 / 3;
+    height: 420px;
+    width: 400px;
+}
+.fa-heart {
+    color: red;
+    font-size: 32px;
+    position: absolute;
+    top: 20px;
+}
+.fa-plus-circle {
+    color: #00669F;
+    font-size: 80px;
+    cursor: pointer;
+}
+.fixed {
+    position: fixed;
+    top: 457px;
+    right: 0;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #00669F;
+    margin-top: 30px;
+    padding: 30px;
+}
+footer p {
+    color: white;
+    text-align: center;
+}
